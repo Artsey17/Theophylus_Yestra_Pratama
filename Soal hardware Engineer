@@ -1,0 +1,51 @@
+ 
+
+
+
+Soal Test
+Hardware Engineer Intern
+
+
+
+
+By :
+haunt07
+Embedded System Programmer
+
+ 
+Aturan Pengerjaan Soal
+1.	Pengerjaan soal dilakukan dalam waktu 3 hari.
+2.	Pengerjaan soal dengan bantuan yang terindikasi sebagai joki tidak diperbolehkan. Contoh: Dikerjakan orang lain, software AI, dsb.
+3.	Jika dinyatakan lolos seleksi, peserta diwajibkan menggunakan laptop yang telah diinstall software yang mendukung pembuatan jawaban soal untuk keperluan assesment saat wawancara.
+
+Pengumpulan Hasil Test
+●	Pengumpulan dapat menggunakan link private repository github atau menggunakan file yang telah dikompres dalam format zip. Pengumpulan dilakukan dengan cara mengirim link atau file ke HRD.
+●	Untuk soal pertama wajib export schematic dan PCB menjadi PDF. Pengumpulan berupa file project dari pembuatan pcb berikut dengan PDF yang telah diexport.
+●	Untuk hasil test dimasukan ke folder bernama “soal_1” untuk soal 1 dan seterusnya.
+●	Untuk peserta yang menggunakan repository github wajib melakukan invite colaborator dengan akun haunt07. File berformat zip hanya diperuntukan bagi peserta yang mengirim langsung ke HRD. Setelah waktu pengerjaan telah melewati waktu yang ditentukan, peserta tidak diperbolehkan untuk melakukan segala bentuk perubahan hasil test pada repository yang digunakan. 
+
+1.	Lakukan pembuatan PCB dan diagram schematicnya dengan menggunakan spesifikasi berikut ini:
+ 
+a.	PCB Merupakan minimum system bukan development board ataupun modul. Hanya ESP32 yang diperbolehkan menggunakan modul(bukan development board). Gambar untuk contoh modul ESP32 ada dibawah ini.
+ 
+b.	Komponen untuk upload firmware hanya terbatas kepada socket dan komponen pendukung seperti switch, button, atau mini jumper untuk membantu proses upload firmware. Proses upload menggunakan hardware diluar pcb seperti modul ft232rl atau ST-Link.
+c.	Terdapat reset button yang digunakan untuk mereset kedua mikrokontroller.
+d.	Power supply input menggunakan power adapter 12 Volt yang akan dihubungkan ke jack konektor female dc pada PCB.
+e.	Penggunakan software designer PCB dibebaskan.
+f.	Perhatikan tata cara pengumpulan hasil test.
+
+ 
+
+
+2.	Lakukan pembuatan program untuk IoT dengan schema berikut ini.
+ 
+a.	Penggunaan untuk controller dibebaskan.
+b.	Untuk yang memilih mikrokontroller, framework yang digunakan untuk pembuatan firmware dibatasi hanya menggunakan Arduino IDE atau platformio.
+c.	Untuk yang memilih mini pc ,pembuatan program dibatasi hanya dengan bahasa python. Untuk software tambahan seperti process manager, script startup, dsb diperbolehkan.
+d.	Peserta dapat menggunakan MQTT Broker yang disediakan secara public atau menggunakan service sendiri. Catatan, sistem harus menggunakan jaringan internet, tidak dijalankan secara lokal.
+e.	Pengiriman data suhu menggunakan topik “daq1/suhu” dan pengiriman data kelembapan menggunakan topik “daq1/kelembapan”.
+f.	Suhu menggunakan satuan Celcius dan kelembapan menggunakan satuan RH.
+g.	Penggunaan fitur tambahan untuk sistem ini menjadi nilai plus. Contoh security, UI, Google Assistant, dsb.
+h.	Perhatikan tata cara pengumpulan hasil test.
+
+
